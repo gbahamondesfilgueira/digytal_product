@@ -34,7 +34,55 @@ html,body{
 p, label{
   font-size: var(--normal);
 }
+.social-media{
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-items: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  justify-self: end;
+}
+.social-media a{
+  display: inline;
+  text-decoration: none;
+  color: white;
+  align-self: center;
+  /* width: 100%; */
 
+}
+.social-media .flaticon-001-facebook {
+  background-image: url("../images/facebook.svg");
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  background-size: 50px 50px;
+}
+.flaticon-002-gmail {
+  background-image: url("../images/gmail.svg");
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  background-size: 50px 50px;
+}
+.flaticon-003-whatsapp{
+  background-image: url("../images/whatsapp.svg");
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  background-size: 50px 50px;
+}
+.flaticon-011-instagram {
+  background-image: url("../images/instagram.svg");
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  background-size: 50px 50px;
+}
 
 nav{
   display: flex;
@@ -59,10 +107,31 @@ nav a:hover{
 nav ul {
   display: flex;
 }
+nav ul .carrito{
+
+}
+nav ul .carrito p{
+  margin: 0 0 0 5px;
+
+
+}
+nav ul .carrito a{
+  justify-content: center;
+}
+.carro-de-la-compra{
+  background-image: url("../images/carro-de-la-compra.svg");
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+
+}
 
 nav ul li{
   padding-right: 20px;
   list-style: none;
+  align-self: center;
 }
 
 hr{
