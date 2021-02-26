@@ -14,8 +14,14 @@
  .beneficios, .mentions {
      display: inherit;
  }
-
-
+footer {
+    display: inline-block;
+    justify-content: center;
+}
+.social-media{
+    justify-content: center;
+    width: 100%;
+}
 
 
 
